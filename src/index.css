@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Neo Brutalism global base */
+body {
+  @apply bg-white text-black antialiased;
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
+
+::selection {
+  background: #ffd93d;
+  color: #000;
+}
